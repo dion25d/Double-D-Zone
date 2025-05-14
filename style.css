@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('img/logo.png') center center no-repeat;
+  background-size: contain;
+  background-color: white;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  padding: 40px;
+}
+
+.menu button {
+  background-color: #0047AB;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.menu button:hover {
+  background-color: #0066CC;
+}
+
+.secao {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #0047AB;
+}
+
+.hidden {
+  display: none;
+}
