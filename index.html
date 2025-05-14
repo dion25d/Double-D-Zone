@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Double D Zone | Marketing Digital e Branding</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Double D Zone - Marketing digital, web design e branding em Angola." />
+  <meta name="keywords" content="marketing digital, Angola, branding, web design, Double D Zone" />
+  <meta name="author" content="Double D Zone" />
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Double D Zone" />
+  <meta property="og:description" content="Agência de marketing digital, web design e branding em Angola." />
+  <meta property="og:image" content="img/logo.png" />
+  <meta property="og:url" content="https://teu-github-username.github.io/double-d-zone" />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio autoplay hidden>
+    <source src="audio/bemvindo.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="overlay">
+    <nav class="menu">
+      <button onclick="showSection('sobre')">Sobre Nós</button>
+      <button onclick="showSection('servicos')">Serviços</button>
+      <button onclick="showSection('portfolio')">Portfólio</button>
+      <button onclick="showSection('contato')">Contato</button>
+    </nav>
+
+    <section id="sobre" class="secao">Somos a Double D Zone. Criatividade e inovação digital ao seu alcance.</section>
+    <section id="servicos" class="secao hidden">Oferecemos gestão de mídias, criação de sites, design, branding e muito mais.</section>
+    <section id="portfolio" class="secao hidden">Veja nossos trabalhos mais recentes e projetos inspiradores.</section>
+    <section id="contato" class="secao hidden">Entre em contato pelo e-mail: doubledzone@gmail.com</section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
