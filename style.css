@@ -1,11 +1,16 @@
 body {
+  
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: url('img/logo.png') center center no-repeat;
-  background-size: contain;
-  background-color: white;
+  padding: 0;
+  background-image: url("logo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
-  overflow: hidden;
+  width: 100vw;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 
 .overlay {
